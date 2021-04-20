@@ -1,0 +1,8 @@
+@import "../../style/styles.scss";
+
+::ng-deep .mat-divider{
+    background-color:$accent;
+    border-top-width: 3px !important ;
+    width: 15%;
+    margin-bottom: 3rem !important;
+}

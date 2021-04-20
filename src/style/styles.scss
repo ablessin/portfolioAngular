@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+@import "theme.scss";
+
+$primary : #6c63ff;
+$accent :#57b894;
+$black : #3f3d56;
+/* color */
+.txt-primary {
+    color: $primary;
+}
+.txt-black{
+    color:$black
+}
+.txt-white{
+    color:white;
+}
+.txt-accent{
+    color:$accent;
+}
+.bg-primary{
+    background-color: $primary;
+}
+ /* general */
+html, body { 
+    height: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+    color: $black;
+    }
+/* border radius */
+.border-radius {
+    border-radius: 5px;
+}
+.border-radius20 {
+    border-radius: 20px !important;
+}
+
+/* width */
+.width50{
+    width: 50%;
+}
+.width25{
+    width: 25%;
+}
+.width40{
+    width: 40%;
+}
+.width100{
+    width: 100%;
+}
+.width5{
+    width: 5%;
+}
+ .width8{
+    width: 8rem;
+}
+.width6{
+    width: 6rem;
+}
+.width10{
+    width: 10rem;
+}
+.width80{
+    width: 80%;
+}
+.width90{
+    width: 90%;
+}
+.width30px{
+    width: 30px;
+}
+.width60{
+    width: 60%;
+}
+.width70{
+    width: 70%;
+}
+/* font size */
+.fontsize100{
+    font-size: 100px;
+}
+.fontsize50{
+    font-size: 50px;
+}
+.fontsize30{
+    font-size: 30px;
+}
+.txt-size100 {
+    font-size: 100px !important;
+}
+.txt-size80 {
+    font-size: 80px !important;
+}
+/* height */
+.height100{
+    height: 100%;
+}
+
+.height130px{
+    height: 130px;
+}
+/* margin */
+.marginbot{
+    margin-bottom: 2rem !important; 
+}
+.marginbot6{
+    margin-bottom: 6rem !important; 
+}
+.marginbot6prct{
+    margin-bottom: 6% !important; 
+}
+.marginbot25{
+    margin-bottom: 25px !important;
+}
+.margin0auto{
+    margin: 0 auto;
+}
+.marginbot13px{
+    margin-bottom: 13px;
+}
+.marginbot20px{
+    margin-bottom: 20px;
+}
+.margintop25px{
+    margin-top: 25px !important;
+}
+.margin0 {
+    margin: 0;
+}
+
+/* other */
+
+.text-center{
+    text-align: center;
+}
+

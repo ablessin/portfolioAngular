@@ -1,0 +1,12 @@
+::ng-deep #home {
+    .mat-tab-label {
+        color: black
+    }
+    .mat-tab-header{
+        margin-bottom:3rem;
+    }
+
+    .mat-tab-body-wrapper{
+        height: 100%;
+    }
+}
